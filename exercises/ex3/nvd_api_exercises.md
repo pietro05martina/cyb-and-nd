@@ -86,3 +86,10 @@ By integrating `pandas` datasets with `matplotlib` logic, you can easily represe
 
 **3. Visualization Strategies**
 - `DataFrame.plot()`: Although we imported `matplotlib.pyplot`, we almost exclusively used Pandas' automated wrapper methods (`df.plot(kind='line')`). We chose this path because Pandas integrates natively with its own indices, automatically handling X-axis timestamp scaling, legend labeling, and dataset sorting without requiring dozens of lines of pure Matplotlib boilerplate drawing coordinates.
+
+---
+
+## 5. Homework Exercises
+
+**Exercise: Vulnerabilities by Day of the Week**
+Extend your knowledge from the tutorial to fetch the last 200 vulnerabilities related a topic of your interest. Convert the published dates to Pandas datetime objects. Extract the day of the week (e.g., Monday, Tuesday) for each vulnerability. Group the data to count the number of vulnerabilities detected on each day of the week. Find and print the day with the most vulnerabilities detected. Finally, print the total counts for each day in descending order (e.g., "Monday: 30, Wednesday: 10, etc.") and use Matplotlib to plot a bar chart showing these frequencies, ensuring the axes are properly labeled and a title is included.
